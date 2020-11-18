@@ -45,9 +45,9 @@ async function getOneCharacterByName(name) {
   } catch (error) {
     return error;
   }
-}
+};
 
 module.exports = {
     getDataFromApiMarvel,
-    getOneCharacterByName
+  getOneCharacterByName
 }
